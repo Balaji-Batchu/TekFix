@@ -4,7 +4,7 @@ import ProductListPage from "./pages/ProductListPage";
 import ProductDetailPage from "./pages/ProductDetailPage";
 import Navbar from "./components/Navbar";
 import './index.css';
-import CartPage from "./pages/cartpage";
+import CartPage from "./pages/CartPage"
 
 function App() {
   return (
