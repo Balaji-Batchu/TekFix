@@ -7,7 +7,6 @@ This project is a modern **e-commerce** application built with **React**, **Vite
 - [Installation](#installation)
 - [Technologies](#technologies)
 - [Features](#features)
-- [Project Structure](#project-structure)
 - [Running the Development Server](#running-the-development-server)
 - [Building the Project](#building-the-project)
 
@@ -57,25 +56,6 @@ This project uses the following technologies:
 - **Smooth Navigation**: Efficient and fast routing with `react-router-dom`.
 - **Styled with TailwindCSS**: A clean and modern UI built using TailwindCSS.
 - **Modern Build Tool**: Fast development and production builds with Vite.
-
----
-
-## Project Structure
-
-The project structure is organized as follows:
-
-```
-/src
-  /components
-    Navbar.js        # Navbar component with links to different pages
-  /pages
-    Home.js          # Home page displaying featured products
-    ProductListPage.js # Page for listing products
-    ProductDetailPage.js # Product details page with an individual product view
-    CartPage.js      # Cart page to manage products in the cart
-  /index.css         # Global styles and TailwindCSS setup
-App.js               # Main app component with routes
-```
 
 ---
 
