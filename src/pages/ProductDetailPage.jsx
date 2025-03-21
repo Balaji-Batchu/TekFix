@@ -71,7 +71,7 @@ const ProductDetailPage = () => {
             onClick={handleAddToCart} 
             className="mt-6 px-6 py-3 bg-accent text-white rounded-full font-semibold shadow-lg hover:bg-dark transition-all"
           >
-            Add to Cart
+            Add to WishList
           </button>
         </div>
       </div>

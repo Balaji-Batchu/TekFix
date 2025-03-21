@@ -34,7 +34,7 @@ const Navbar = () => {
             Products
           </Link>
           <Link to="/cart" className="relative text-lg hover:text-accent transition">
-            Cart
+            WishList
           </Link>
         </div>
       </div>

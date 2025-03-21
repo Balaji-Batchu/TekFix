@@ -10,7 +10,10 @@ const ProductCard = ({ product }) => {
         <img src={product.image} alt={product.title} className="h-full object-contain" />
       </div>
       <h3 className="mt-4 font-semibold text-dark text-lg truncate">{product.title}</h3>
-      <p className="text-accent font-bold text-xl mt-2">${product.price}</p>
+      <div className="flex justify-between">
+        <p className="text-accent font-bold text-xl mt-2">${product.price}</p>
+        <p className="text-yellow-500 text-lg mt-2">⭐ {product.rating.rate}</p>
+      </div>
     </Link>
   );
 };

@@ -29,6 +29,7 @@ const ProductCarousel = () => {
         autoplay={{
           delay: 1500,
           disableOnInteraction: false,
+          waitForTransition: false,
         }}
         coverflowEffect={{
           rotate: 0,
